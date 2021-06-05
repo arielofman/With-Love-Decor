@@ -70,7 +70,7 @@ function Footer() {
 
                 <div className="flex flex-col font-lato italic font-light">
                     <Fade top>
-                        <div className="pb-4 ">SUBSCRIBE</div>
+                        <div className="mr-auto md:mr-0 mb-4 bg-white md:bg-transparent">SUBSCRIBE</div>
                     </Fade>
                     <div className="flex flex-col">
                         <Fade right> 

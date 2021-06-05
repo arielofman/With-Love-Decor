@@ -4,9 +4,9 @@ import Fade from 'react-reveal/Fade';
 function Breathtaking() {
     return (
          
-        <div className="flex flex-col px-10 lg:px-64 py-16">
+        <div className="flex flex-col px-10 lg:px-64 py-5 md:py-16">
             <Fade top> 
-            <div className="mt-10 mx-auto font-display-fair italic text-3xl text-black tracking-widest pb-4 px-5 border-b-1 border-black">
+            <div className="mt-10 mx-auto font-display-fair italic text-2xl md:text-3xl text-black tracking-widest pb-4 px-5 border-b-1 border-black">
             Breathtaking Events
             </div>
             </Fade>

@@ -5,7 +5,7 @@ function Featured() {
     return (
         <div className="services flex flex-col bg-light-peach pb-10">
             <Fade left>
-            <div className="mt-10 mx-auto font-formal-script text-3xl pb-5 text-black border-b-1 border-black">Featured Journal
+            <div className="mt-10 mx-auto font-formal-script text-2xl md:text-3xl pb-5 text-black border-b-1 border-black">Featured Journal
             </div>
             </Fade>
             <div className="grid grid-rows-3 md:grid-rows-none md:grid-cols-3 justify-items-center">

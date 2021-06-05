@@ -1,7 +1,10 @@
 import React from 'react'
+import { useMediaQuery } from 'react-responsive'
 import Fade from 'react-reveal/Fade';
 
 function Philosophy() {
+    const isSmallScreen = useMediaQuery({ query: '(max-device-width: 640px)' })
+
     return (
         <div className="philosophy">
             <div className="h-24 flex flew-col items-end w-full">
@@ -10,11 +13,14 @@ function Philosophy() {
                 </Fade>
             </div>
             <div className="grid md:grid-cols-2 xl:grid-rows-none xl:grid-cols-2 bg-calm-peach">
-                <div className="flex p-14 xl:pr-0 pt-0 flex-col">
+                <div className="flex p-8 md:p-14 xl:pr-0 pt-0 flex-col">
                     <Fade left> 
                     <hr className="border-0 mt-6 bg-gray-500 text-gray-500 h-px w-1/6" />
-                    <div className="text-4xl mt-6 font-display-fair">our <span className="italic">passion</span> is to turn our</div>
-                    <div className="text-4xl mt-5 mb-6 font-display-fair">client’s dreams into realities.</div>
+                    {isSmallScreen ? (<div className="text-4xl my-6 font-display-fair">our <span className="italic">passion</span> is to turn our client’s dreams into realities.</div>) :
+                        (<><div className="text-4xl mt-6 font-display-fair">our <span className="italic">passion</span> is to turn our</div>
+                        <div className="text-4xl mt-5 mb-6 font-display-fair">client’s dreams into realities.</div></>)
+                    }
+                    
                     <div className="font-lato text-calm-text">At <span className="text-bold-calm">With Love Decor</span>, our passion is to
                     turn our clients dreams into realities. We provide top of the line event decor and floral design services that
                     are certain to make the special day to be cherished forever. Our professional and distinguished specialists
