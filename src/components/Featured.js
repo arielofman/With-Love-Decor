@@ -12,7 +12,7 @@ function Featured() {
                 <Fade left>
                     <div className="flex flex-col">
                         <img className="p-14 pb-0" src="images/decor.jpg" alt="decor" />
-                        <div className="mt-5 font-jose text-xl text-chocolate text-center tracking-wide">EVENT DECOR</div>
+                        <div className="mt-5 font-jose text-2xl text-chocolate text-center tracking-wide">EVENT DECOR</div>
                         <div className="px-14 mt-3 font-lato text-grey-brown leading-5 text-center mb-4">
                             Extraordinary decor services for events to make the special day cherish forever. Our premium event decor
                             services ensure a spectacular occasion for our clients stress-free.

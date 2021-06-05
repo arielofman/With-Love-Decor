@@ -1,5 +1,4 @@
-import React from 'react'
-import Fade from 'react-reveal/Fade';
+import React from 'react' 
 import emailjs from 'emailjs-com';
 
 function ContactUs() {
