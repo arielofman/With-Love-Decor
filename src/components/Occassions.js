@@ -14,7 +14,7 @@ function Occassions() {
                 </div>
                 </Fade>
                 <div className="mx-auto md:ml-0 grid-cols-2 grid self-start font-lato font-light">
-                    <Fade left>
+                    
                         <ul className="list-inside list-disc pr-1 md:pr-11">
                             <li className="pb-2">Weddings</li>
                             <li className="pb-2">Engagement parties</li>
@@ -24,7 +24,7 @@ function Occassions() {
                             <li className="pb-2">Baby showers</li>
                             <li className="pb-2">Proms</li>
                         </ul>
-                    </Fade>
+                    
                     <div className="div">
                         <Fade right>
                             <ul className="list-inside list-disc">

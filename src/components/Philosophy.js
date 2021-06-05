@@ -9,11 +9,11 @@ function Philosophy() {
         <div className="philosophy">
             <div className="h-24 flex flew-col items-end w-full">
                 <Fade top> 
-                <div className="tracking-widest title mb-4 pl-14 font-lato">OUR PHILOSOPHY</div>
+                <div className="tracking-widest title mb-4 pl-8 md:pl-14 font-lato">OUR PHILOSOPHY</div>
                 </Fade>
             </div>
             <div className="grid md:grid-cols-2 xl:grid-rows-none xl:grid-cols-2 bg-calm-peach">
-                <div className="flex p-8 md:p-14 xl:pr-0 pt-0 flex-col">
+                <div className="flex p-8 md:p-14 xl:pr-0 pt-0 md:pt-0 flex-col">
                     <Fade left> 
                     <hr className="border-0 mt-6 bg-gray-500 text-gray-500 h-px w-1/6" />
                     {isSmallScreen ? (<div className="text-4xl my-6 font-display-fair">our <span className="italic">passion</span> is to turn our client’s dreams into realities.</div>) :
