@@ -1,4 +1,3 @@
-import './App.css';
 import Breathtaking from './components/Breathtaking';
 import Featured from './components/Featured';
 import Gallery from './components/Gallery';
@@ -13,18 +12,20 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="home antialiased"> 
-      <Header/>
-      <Hero />
-      <Philosophy />
-      <Featured />
-      <Specialize />
-      <Breathtaking />
-      <Occassions />
-      <Gallery />
-      <Map />
-      <ContactUs />
-      <Footer />
+    <div className="home antialiased">
+      <Header />
+      <div className="mx-auto mw-1920">
+        <Hero />
+        <Philosophy />
+        <Featured />
+        <Specialize />
+        <Breathtaking />
+        <Occassions />
+        <Gallery />
+        <Map />
+        <ContactUs />
+        <Footer />
+      </div>
     </div>
   );
 }

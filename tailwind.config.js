@@ -23,8 +23,9 @@ module.exports = {
         'lato': ["Lato", "sans-serif"],
         'formal-script': ["Petit Formal Script", "sans-serif"],
         'jose': ["Josefin Sans", "sans-serif"]
-      }
+      },
     },
+    
   },
   variants: {
     extend: {},

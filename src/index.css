@@ -3,10 +3,19 @@
 @tailwind utilities; 
 
 @layer utilities {
+  @variants responsive {
+    .w-500 { 
+      width: 500px; 
+    }
+  }
   .border-b-1 {
       border-bottom-width: 1px;
   }
   .border-1 {
       border-width: 1px;
+  } 
+  
+  .mw-1920 { 
+    max-width: 1920px;
   }
 }

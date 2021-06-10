@@ -37,7 +37,7 @@ function Philosophy() {
                 </div>
                 <div className="relative flex justify-center w-full h-full items-center">
                     <Fade right>
-                        <img className="hidden md:block shadow-sm px-14 md:p-0 md:absolute lg:-top-10 lg:w-3/4" src="images/wedding.jpg"
+                        <img className="hidden md:block md:w-96 lg:w-500 shadow-sm px-14 md:p-0 md:absolute lg:-top-10" src="images/wedding.jpg"
                             alt="" />
                     </Fade>
                 </div>

@@ -11,7 +11,7 @@ function Breathtaking() {
             </div>
             </Fade>
             <Fade bottom> 
-            <div className="font-lato py-10 text-grey-brown">It all starts with an idea from our clients, which our event planners
+            <div className="text-center font-lato py-10 text-grey-brown">It all starts with an idea from our clients, which our event planners
             breath life to with a touch
             of love and magic! For us every event comes with its own distinctive style that is designed and developed with
             unique creativity by our consultants. Almost anything imaginable we can bring to life!</div>

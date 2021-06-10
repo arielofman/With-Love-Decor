@@ -3,11 +3,11 @@ import Fade from 'react-reveal/Fade';
 
 function Occassions() {
     return (
-        <div className="occassions grid-cols-1 lg:pb-40 grid lg:grid-cols-2 bg-top bg-auto bg-white-wedding">
-            <div className="p-5 md:p-10 flex flex-col md:ml-36 items-center md:items-start">
+        <div className="occassions grid-cols-1 grid lg:grid-cols-2 bg-top bg-cover bg-white-wedding">
+            <div className="px-5 py-10 md:p-10 lg:p-20 flex flex-col md:ml-36 items-center md:items-start">
                 <Fade left>
                     <div
-                        className="pt-8 lg:pt-20 pb-2 tracking-widest title lg:px-5 font-lato border-b-1 border-black text-lg text-center lg:self-start">
+                        className="pb-2 tracking-widest title lg:px-5 font-lato border-b-1 border-black text-lg text-center lg:self-start">
                         YOUR OCCASIONS</div>
                     <div className="text-center text-2xl lg:text-left lg:self-start pb-10 lg:text-4xl mt-6 font-display-fair">
                         Our services call occassions

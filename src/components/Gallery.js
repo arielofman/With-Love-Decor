@@ -13,7 +13,7 @@ function Gallery() {
         </Fade>
             {/* <div className="grid grid-rows-2 grid-cols-3 p-5 lg:p-20 lg:pt-10"> */}
                 
-                <div className="p-5 md:pb-14 md:pt-8">
+                <div className="px-5 py-10 md:pb-14 md:pt-8">
                      
                 <Carousel
                 cols={3}

@@ -2,7 +2,7 @@ import React from 'react'
 import Fade from 'react-reveal/Fade'; 
 function Footer() {
     return (
-        <div className="p-10 lg:p-0 w-full lg:pt-16 md:pb-52 lg:pb-80 h-auto bg-center bg-footer-flowers">
+        <div className="p-10 lg:p-0 w-full lg:pt-16 md:pb-52 lg:pb-80 h-auto bg-center bg-cover bg-footer-flowers">
             <div className="flex flex-col md:flex-row md:justify-around">
                 <div className="flex flex-col font-lato italic font-light">
                     <Fade top>
